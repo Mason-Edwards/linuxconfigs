@@ -9,7 +9,7 @@ zstyle ':vcs_info:git:*' formats 'on branch %b'
 
 # Set up the prompt
 setopt PROMPT_SUBST
-PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M%{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}λ%b " 
+PS1='%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M%{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}ψ>%b ' 
 
 # History in cache directory:
 HISTSIZE=10000
@@ -73,9 +73,12 @@ bindkey '^e' edit-command-line
 # Load aliases and shortcuts if existent.
 [ -f "$HOME/.zshconfig/.zsh_aliases" ] && source "$HOME/.zshconfig/.zsh_aliases"
 
-#Plugins
+# Plugins
 source "$HOME/.zshconfig/.zshplugins/git.plugin.zsh"
 source "$HOME/.zshconfig/.zshplugins/zsh_syntax_highlighting.zsh"
 source "$HOME/.zshconfig/.zshplugins/colored-man-pages.zsh"
 source "$HOME/.zshconfig/.zshplugins/command-not-found.zsh"
 source "$HOME/.zshconfig/.zshplugins/git-prompt.zsh"
+
+# neofetch on new shell
+neofetch
