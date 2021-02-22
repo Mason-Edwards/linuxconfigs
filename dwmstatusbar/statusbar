@@ -1,0 +1,11 @@
+#!/bin/sh
+
+status()
+{
+	echo -n "BAT:: $(cat /sys/class/power_supply/BAT0/capacity) | $(date '+%d-%m-%y %H:%M')"
+}
+
+while :; do 
+	xsetroot -name "$(status)"
+	sleep 60
+done

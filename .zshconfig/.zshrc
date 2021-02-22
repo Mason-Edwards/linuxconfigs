@@ -9,7 +9,7 @@ zstyle ':vcs_info:git:*' formats 'on branch %b'
 
 # Set up the prompt
 setopt PROMPT_SUBST
-PS1='%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M%{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}ψ>%b ' 
+PS1='%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M%{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}->%b ' 
 
 # History in cache directory:
 HISTSIZE=10000
