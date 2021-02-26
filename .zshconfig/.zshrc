@@ -81,4 +81,4 @@ source "$HOME/.zshconfig/.zshplugins/command-not-found.zsh"
 source "$HOME/.zshconfig/.zshplugins/git-prompt.zsh"
 
 # neofetch on new shell
-neofetch
+neofetch | lolcat
