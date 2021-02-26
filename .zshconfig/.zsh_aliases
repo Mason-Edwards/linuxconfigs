@@ -3,4 +3,5 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias psgrep="ps -aux | grep"
+alias la="ls -A --color=auto" 
 
