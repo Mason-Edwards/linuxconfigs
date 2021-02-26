@@ -11,3 +11,4 @@ set ttyfast
 syntax on
 
 :set clipboard=unnamed	" Sets yanking to copy to normal copy and paste clipboard
+
