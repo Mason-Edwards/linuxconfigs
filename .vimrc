@@ -7,6 +7,7 @@ autocmd VimEnter * silent exec "! echo -ne '\e[1 q'"
 set ttimeout
 set ttimeoutlen=1
 set ttyfast
+set smartindent
 
 syntax on
 
