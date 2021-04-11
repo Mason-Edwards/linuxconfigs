@@ -34,7 +34,8 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 setxkbmap -layout gb
-nitrogen --restore &
-picom --experimental-backend &
+wmname LG3D # Change wmname so java applications run
+nitrogen --restore & # Wallpaper
+picom --experimental-backend & # Transparency 
 ./dwmstatusbar/statusbar &
 exec dwm

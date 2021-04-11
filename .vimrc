@@ -11,5 +11,6 @@ set smartindent
 
 syntax on
 
+:set number
 :set clipboard=unnamed	" Sets yanking to copy to normal copy and paste clipboard
 
